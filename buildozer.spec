@@ -121,6 +121,7 @@ fullscreen = 0
 # (str) Android NDK directory (if empty, it will be automatically downloaded.)
 android.ndk_path = /path/to/android-ndk-r25b
 
+
 # (str) Android SDK directory (if empty, it will be automatically downloaded.)
 #android.sdk_path =
 
