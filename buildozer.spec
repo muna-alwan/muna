@@ -119,13 +119,14 @@ fullscreen = 0
 #android.private_storage = True
 
 # (str) Android NDK directory (if empty, it will be automatically downloaded.)
-#android.ndk_path =
+android.ndk_path = /path/to/android-ndk-r25b
 
 # (str) Android SDK directory (if empty, it will be automatically downloaded.)
 #android.sdk_path =
 
 # (str) ANT directory (if empty, it will be automatically downloaded.)
 #android.ant_path =
+android.python_path = /path/to/python3.11
 
 # (bool) If True, then skip trying to update the Android sdk
 # This can be useful to avoid excess Internet downloads or save time
