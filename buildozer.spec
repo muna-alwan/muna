@@ -119,11 +119,14 @@ fullscreen = 0
 #android.private_storage = True
 
 # (str) Android NDK directory (if empty, it will be automatically downloaded.)
-android.ndk_path = /path/to/android-ndk-r25b
+# In buildozer.spec
+android.ndk_path = /github/workspace/.buildozer_global/android/platform/android-ndk-r25b
+android.sdk_path = /github/workspace/.buildozer_global/android/platform/android-sdk
+
 
 
 # (str) Android SDK directory (if empty, it will be automatically downloaded.)
-#android.sdk_path =
+
 
 # (str) ANT directory (if empty, it will be automatically downloaded.)
 #android.ant_path =
